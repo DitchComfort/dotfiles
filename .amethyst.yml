@@ -1,0 +1,84 @@
+#「MODIFIERS」
+
+# ...
+mod1:
+    - option
+    - shift
+    - control
+    - command
+mod2:
+    - option
+    - shift
+
+#「CONFIGURATION」
+
+# General
+
+# ...
+ignore-menu-bar: false
+
+# ...
+new-windows-to-main: false
+
+# ...
+follow-space-thrown-windows: true
+
+# ...
+window-minimum-width: 0
+window-minimum-height: 0
+
+# ...
+window-margins: true
+window-margin-size: 10
+
+# ...
+smart-window-margins: false
+
+# ...
+screen-padding-left: 0
+screen-padding-right: 0
+screen-padding-top: 0
+screen-padding-bottom: 0
+
+# ...
+enables-layout-hud: true
+enables-layout-hud-on-space-change: true
+
+# Layouts
+
+# ...
+layouts:
+    - tall
+    - wide
+    - fullscreen
+
+# ...
+restore-layouts-on-launch: true
+
+# ...
+window-resize-step: 5
+
+# Floating
+
+# ...
+float-small-windows: true
+
+# ...
+# floating:
+# floating-is-blacklist:
+
+# Mouse
+
+# ...
+mouse-follows-focus: false
+focus-follows-mouse: false
+mouse-swaps-windows: false
+mouse-resizes-windows: true
+
+# Update/Debug
+
+# ...
+debug-layout-info: false
+
+# ...
+use-canary-build: true

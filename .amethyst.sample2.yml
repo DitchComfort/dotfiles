@@ -1,0 +1,219 @@
+# Amethyst will pick up a config file located at ~/.amethyst.yml
+# https://github.com/ianyh/Amethyst/blob/development/docs/configuration-files.md
+# 2022 ♥ ∀S∀
+
+#「MODIFIERS」
+
+# ...
+mod1:
+    - option
+    - shift
+mod2:
+    - option
+    - shift
+    - control
+
+#「CONFIGURATION」
+
+# General
+
+# ...
+ignore-menu-bar: false
+
+# ...
+new-windows-to-main: false
+
+# ...
+follow-space-thrown-windows: true
+
+# ...
+window-minimum-width: 0
+window-minimum-height: 0
+
+# ...
+window-margins: true
+window-margin-size: 8
+
+# ...
+smart-window-margins: false
+
+# ...
+screen-padding-left: 0
+screen-padding-right: 0
+screen-padding-top: 0
+screen-padding-bottom: 0
+
+# ...
+enables-layout-hud: true
+enables-layout-hud-on-space-change: true
+
+# Layouts
+
+# ...
+layouts:
+    - tall
+    - fullscreen
+
+# ...
+restore-layouts-on-launch: true
+
+# ...
+window-resize-step: 5
+
+# Floating
+
+# ...
+float-small-windows: true
+
+# ...
+# floating:
+# floating-is-blacklist:
+
+# Mouse
+
+# ...
+mouse-follows-focus: false
+focus-follows-mouse: false
+mouse-swaps-windows: false
+mouse-resizes-windows: true
+
+# Update/Debug
+
+# ...
+debug-layout-info: false
+
+# ...
+use-canary-build: true
+
+#「COMMANDS」
+
+# ...
+cycle-layout:
+    mod: mod1
+    key: space
+
+cycle-layout-backward:
+    mod: mod2
+    key: space
+
+# ...
+shrink-main:
+    mod: mod1
+    key: h
+
+expand-main:
+    mod: mod1
+    key: l
+
+# ...
+increase-main:
+    mod: mod1
+    key: ,
+
+decrease-main:
+    mod: mod1
+    key: .
+
+# ...
+#command1:
+#    mod:
+#    key:
+#
+#command2:
+#    mod:
+#    key:
+#
+#command3:
+#    mod:
+#    key:
+#
+#command4:
+#    mod:
+#    key:
+
+# ...
+focus-ccw:
+    mod: mod1
+    key: j
+
+focus-cw:
+    mod: mod1
+    key: k
+
+focus-main:
+    mod: mod1
+    key: m
+
+# ...
+focus-screen-ccw:
+    mod: mod1
+    key: p
+
+focus-screen-cw:
+    mod: mod1
+    key: n
+
+# ...
+swap-screen-ccw:
+    mod: mod2
+    key: h
+
+swap-screen-cw:
+    mod: mod2
+    key: l
+
+swap-ccw:
+    mod: mod2
+    key: j
+
+swap-cw:
+    mod: mod2
+    key: k
+
+swap-main:
+    mod: mod1
+    key: return
+
+# ...
+#focus-screen-n:
+#    mod:
+#    key:
+#
+#throw-screen-n:
+#    mod:
+#    key:
+
+# ...
+throw-space-left:
+   mod: mod2
+   key: left
+
+throw-space-right:
+   mod: mod2
+   key: right
+
+# ...
+toggle-float:
+   mod: mod1
+   key: t
+
+display-current-layout:
+   mod: mod1
+   key: i
+
+toggle-tiling:
+   mod: mod2
+   key: t
+
+#toggle-focus-follows-mouse:
+#   mod:
+#   key:
+
+# ...
+reevaluate-windows:
+   mod: mod1
+   key: z
+
+relaunch-amethyst:
+   mod: mod2
+   key: z
